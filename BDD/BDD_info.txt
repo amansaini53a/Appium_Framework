@@ -1,0 +1,11 @@
+It has terms :: Given,Scenario
+Under Scenario
+    Given :: Used when starts interacting with application(Like Precondition).
+    When :: Used when we perform some actions on the application(interacting with application, like entering data
+                                                                    in application  form.)
+    Then :: Used in Verification steps.
+    And,But :: This tags is used for preceding tags(Given, Then, When) to descript more additional steps.
+                    (Given, When, Then)
+
+
+behave login_screen.feature --no-capture
